@@ -1,0 +1,92 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  /* Degradado suave de lavanda claro a lila medio */
+  background: linear-gradient(135deg, #f3e8ff 0%, #c084fc 100%);
+  color: #3b0764; /* Texto en morado muy oscuro para que se lea perfecto */
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 90vh;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  color: #581c87; /* Título principal en violeta profundo */
+}
+
+.search-container {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px 15px;
+  border-radius: 6px;
+  border: 1px solid #a855f7; /* Borde lila brillante */
+  background: #ffffff; /* Fondo blanco limpio */
+  color: #4c1d95;
+  width: 250px;
+  outline: none;
+}
+
+input::placeholder {
+  color: #a78bfa; /* Texto de ejemplo en lila pastel */
+}
+
+button {
+  padding: 10px 20px;
+  background: #8b5cf6; /* Botón en tono lila vibrante */
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #7c3aed; /* Lila un poco más intenso al pasar el ratón */
+}
+
+.weather-card {
+  background: #faf5ff; /* Tarjeta en blanco con un toque lavanda */
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px -5px rgba(88, 28, 135, 0.25); /* Sombra lila sutil */
+  max-width: 480px;
+  text-align: center;
+  border: 2px solid #d8b4fe; /* Borde lila pastel */
+  line-height: 1.6;
+}
+
+.description {
+  font-size: 14px;
+  background: #ede9fe; /* Caja interior en lila muy suavecito */
+  color: #4c1d95;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+.geo-data {
+  font-size: 13px;
+  color: #6b21a8; /* Morado medio */
+}
+
+.weather-data h4 {
+  margin: 5px 0;
+  color: #7e22ce; /* Subtítulos en violeta */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.success-footer {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #6b21a8;
+  font-weight: bold;
+}
